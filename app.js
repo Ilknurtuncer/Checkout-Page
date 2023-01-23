@@ -39,7 +39,7 @@ productsDiv.addEventListener("click", (event) => {
 
 const calulateProductPrice = (btn) =>{
     const productInfoDiv = btn.parentElement.parentElement;
-    const price = Number(productInfoDiv.querySelector(".product-price strong").innerText);
+    const price = Number(productInfoDiv.querySelector("div.product-price strong").innerText);
     const quantity = Number(productInfoDiv.querySelector(".quantity").innerText)
     const productTotalDiv = productInfoDiv.querySelector(".price")
 
