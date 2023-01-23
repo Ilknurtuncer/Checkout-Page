@@ -58,8 +58,6 @@ document.querySelector("#taxRateCart").innerText = taxtPrice.toFixed(2);
 document.querySelector("#shippingCart").innerText = shippingPrice.toFixed(2);
 document.querySelector("#totalCart").innerText = totalCart.toFixed(2);
 
-
-
 }
 
 
