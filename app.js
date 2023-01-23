@@ -6,7 +6,9 @@ window.addEventListener("load", () => {
   localStorage.setItem("taxtRate", taxtRate);
   localStorage.setItem("shippingPrice", shippingPrice);
   localStorage.setItem("shippingFreePrice", shippingFreePrice);
+  calulateCartPrice();
 });
+
 
 const productsDiv = document.querySelector(".products");
 

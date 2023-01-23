@@ -7,3 +7,5 @@ e.target vs. e. currentTarget the difference between;
 
  product total calculation
  cart total calculation from products
+
+ innerText  vs. textContent (whitespaces)
