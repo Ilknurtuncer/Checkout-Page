@@ -22,5 +22,5 @@ unit price
 
  cart total calculation from all products
 
- 
+ confirm ===> will be delete!
 
